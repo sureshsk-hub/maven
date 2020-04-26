@@ -19,7 +19,7 @@ node{
    stage('Build Docker Image')
    
     dockerfile {
-            filename 'Dockerfile.jenkinsAgent'
+            filename 'dockerfile.jenkinsAgent'
         }
    
      {
