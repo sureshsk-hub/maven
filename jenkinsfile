@@ -16,7 +16,7 @@ node{
    }
    stage('docker file')
         {
-            filename 'dockerfile.jenkinsAgent'
+            filename 'Dockerfile.jenkinsAgent'
         }
    
    
