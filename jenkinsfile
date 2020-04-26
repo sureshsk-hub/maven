@@ -14,9 +14,15 @@ node{
      sh "${mvnCMD} clean package"
 
    }
+   
 
-   stage('Build Docker Image'){
-
+   stage('Build Docker Image')
+   
+    dockerfile {
+            filename 'Dockerfile.jenkinsAgent'
+        }
+   
+     {
      sh 'docker build -t motasuresh/my-app:2.0.0 .'
      }
      
