@@ -20,3 +20,8 @@
   </prerequisites>
 
 </project>
+
+<properties>
+  <sonar.organization>sureshsk-hub</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
